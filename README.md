@@ -14,7 +14,9 @@ This course is for everyone who wants to learn Angular and the latest features f
 
 This course will not go into very basics of Angular and Typescript. If you want to learn basic, you can go through my Angular Basics Course on FreeCodeCamp
 
-https://youtu.be/3qBXWUpoPHo
+
+
+[![Angular Basics Course](http://img.youtube.com/vi/3qBXWUpoPHo/0.jpg)](https://youtu.be/3qBXWUpoPHo)
 
 
 # What will be covered
