@@ -1,3 +1,6 @@
+ **_NOTE:_**  All my content is free for community, but if you are able to support, please try to support by sponsoring me on GitHub. This will help me to dedicate more time doing content creation.
+
+
 # Introduction
 
 The course is focused on doing enterprise level development using Nx + Angular + NgRx
@@ -13,7 +16,6 @@ Both tools are used widely with Angular in enterprise. The purpose of the course
 This course is for everyone who wants to learn Angular and the latest features from Angular 15.
 
 This course will not go into very basics of Angular and Typescript. If you want to learn basic, you can go through my Angular Basics Course on FreeCodeCamp
-
 
 
 [![Angular Basics Course](http://img.youtube.com/vi/3qBXWUpoPHo/0.jpg)](https://youtu.be/3qBXWUpoPHo)
