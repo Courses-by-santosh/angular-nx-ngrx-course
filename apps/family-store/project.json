@@ -3,23 +3,30 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "sourceRoot": "apps/family-store/src",
-  "prefix": "angular-nx-ngrx-course",
+  "prefix": "family-store",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/family-store",
         "index": "apps/family-store/src/index.html",
         "main": "apps/family-store/src/main.ts",
-        "polyfills": ["zone.js"],
+        "polyfills": [
+          "zone.js"
+        ],
         "tsConfig": "apps/family-store/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
           "apps/family-store/src/favicon.ico",
           "apps/family-store/src/assets"
         ],
-        "styles": ["apps/family-store/src/styles.scss"],
+        "styles": [
+          "@angular/material/prebuilt-themes/indigo-pink.css",
+          "apps/family-store/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
@@ -69,7 +76,9 @@
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
         "lintFilePatterns": [
           "apps/family-store/**/*.ts",
@@ -79,7 +88,9 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
       "options": {
         "jestConfig": "apps/family-store/jest.config.ts",
         "passWithNoTests": true
